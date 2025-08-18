@@ -6,9 +6,7 @@ export default function ProjectsPage() {
   const { projects } = useProjects();
 
   return (
-    <main className="min-h-screen p-8 bg-black text-white">
-      <h2 className="text-2xl md:text-4xl font-bold mb-8">Projects</h2>
-
+    <main className="min-h-screen p-8 mt-12 bg-black text-white">
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
